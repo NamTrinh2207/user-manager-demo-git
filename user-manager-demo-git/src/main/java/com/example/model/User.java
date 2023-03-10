@@ -1,4 +1,4 @@
-package com.example.usermanagerdemogit.model;
+package com.example.model;
 
 public class User {
     protected int id;

@@ -1,6 +1,6 @@
-package com.example.usermanagerdemogit.model.service;
+package com.example.service;
 
-import com.example.usermanagerdemogit.model.User;
+import com.example.model.User;
 
 import java.util.List;
 
