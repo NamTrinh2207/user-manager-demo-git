@@ -12,6 +12,18 @@ public class UserServlet extends HttpServlet {
 
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-
+        String action = req.getParameter("action");
+        if (action == null) {
+            action = "";
+        }
+        switch (action) {
+            case "create":
+                break;
+            case "edit":
+                break;
+            case "delete":
+                break;
+            default:
+        }
     }
 }
