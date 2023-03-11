@@ -20,9 +20,9 @@ public class UserIplm implements IUser {
 
     @Override
     public User findById(int id) {
-        for (int i = 0; i < users.size(); i++) {
-            if (users.get(i).getId() == id) {
-                return users.get(i);
+        for (User user : users) {
+            if (user.getId() == id) {
+                return user;
             }
         }
         return null;
